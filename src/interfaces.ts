@@ -12,7 +12,7 @@ export interface IProductActions {
 
     getProducts(): IProduct[];
 
-    getOneProduct(id: number): IProduct[] | null;
+    getOneProduct(id: number): IProduct[];
 
     updateProduct(id: number, param: {name?: string; price?: number}) : IProduct[];  
 
